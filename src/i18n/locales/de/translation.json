@@ -1,0 +1,445 @@
+{
+  "common": {
+    "nav": {
+      "timeline": "Zeitleiste",
+      "portfolio": "Portfolio",
+      "contact": "Kontakt"
+    },
+    "ctaContact": "Lass uns sprechen"
+  },
+  "hero": {
+    "name": "Marcos Cosmoski",
+    "roles": "Full Stack Developer - Tech Lead",
+    "title": "Ich verwandle kühne Ideen in skalierbare Produkte durch technische Führung und moderne Architektur.",
+    "subtitle": "Serverless-Spezialist mit agilem Mindset, der Produktstrategie und Engineering für nachhaltigen Impact verbindet.",
+    "primaryCta": "Reise starten",
+    "secondaryCta": "Lebenslauf herunterladen"
+  },
+  "timeline": {
+    "professional": {
+      "heading": "Berufliche Reise",
+      "subheading": "Vom Junior-Entwickler bis zur heutigen technischen Führung – jede Station zeigt Wirkung und Kompetenzaufbau."
+    },
+    "education": {
+      "heading": "Lernen & Ausbildung",
+      "subheading": "Studiengänge, Kurse und Zertifizierungen, die meine Praxis ergänzen und neue Perspektiven eröffnen."
+    },
+    "common": {
+      "continue": "Weiter",
+      "back": "Zurück",
+      "progress": "Station {{current}} von {{total}}",
+      "openDetails": "Details ansehen"
+    },
+    "modal": {
+      "title": "Details zur Station",
+      "highlights": "Highlights",
+      "techStack": "Technologien",
+      "outcomes": "Ergebnisse",
+      "links": "Mehr erfahren",
+      "close": "Schließen"
+    },
+    "categories": {
+      "experience": "Berufserfahrung",
+      "education": "Ausbildung",
+      "certification": "Zertifizierung"
+    },
+    "stages": {
+      "alfaSoftJunior": {
+        "title": "Junior Software Developer",
+        "company": "Alfa Soft Consultoria e Sistemas",
+        "period": "2014 — 2015",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Erste Berufserfahrung in der Tech-Welt, kombiniert Kundenservice mit der Umsetzung neuer Web-Module.",
+        "highlights": [
+          "Bestandsprodukte mit PHP, Java, Delphi und PostgreSQL weiterentwickelt.",
+          "Legacy-Systeme gepflegt und dabei Node.js sowie JavaScript gelernt.",
+          "Neues Webprodukt gemeinsam mit einem kleinen Team aufgebaut."
+        ],
+        "techStack": ["PHP", "Java", "Delphi", "PostgreSQL", "JavaScript", "Node.js"],
+        "outcomes": [
+          "Solide Grundlage in Legacy- und modernen Stacks für spätere Rollen geschaffen."
+        ]
+      },
+      "virtualSoftwaresJunior": {
+        "title": "Programmierer (Junior)",
+        "company": "Virtual Softwares para Seguros",
+        "period": "Apr 2015 — Jan 2017",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Full-Stack-Aufgaben in Versicherungsprodukten mit Fokus auf Wartung und kleine Erweiterungen.",
+        "highlights": [
+          "Features mit JavaScript, CSS, SQL Server, AngularJS und Node.js geliefert.",
+          "Wartung kritischer Module in Delphi (Pascal).",
+          "Unterstützung bei Deployments und im Kundenkontakt."
+        ],
+        "techStack": ["JavaScript", "CSS", "SQL Server", "AngularJS", "Node.js", "Delphi"],
+        "outcomes": [
+          "Dokumentations- und CI-Routinen etabliert, die später übernommen wurden."
+        ]
+      },
+      "virtualSoftwaresPleno": {
+        "title": "Programmierer (Mid-Level)",
+        "company": "Virtual Softwares para Seguros",
+        "period": "Jan 2017 — Dez 2018",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Verantwortlich für neue Services und Integrationen für Partner-Versicherer.",
+        "highlights": [
+          "Node.js- und Angular-Services zur Ablösung von Legacy-Modulen konzipiert.",
+          "Junior-Entwickler bei Best Practices und Code Reviews angeleitet.",
+          "Innovationsinitiativen mit Produkt- und Business-Teams vorangetrieben."
+        ],
+        "techStack": ["Node.js", "AngularJS", "SQL Server", "TypeScript", "Docker"],
+        "outcomes": [
+          "Serviceangebot erweitert und Lieferzeiten für Integrationen verkürzt."
+        ]
+      },
+      "quiverProgramadorSenior": {
+        "title": "Senior-Entwickler",
+        "company": "Quiver Soluções",
+        "period": "Apr 2018 — Dez 2018",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Technische Führung in Innovations-Squads, die Legacy-Systeme mit modernen Weblösungen verband.",
+        "highlights": [
+          "POCs mit Node.js, MongoDB, C# und Angular geleitet.",
+          "RPA- und Automatisierungsinitiativen unterstützt.",
+          "Workshops und Mentoring für Junior Engineers durchgeführt."
+        ],
+        "techStack": ["Node.js", "Angular", "C#", "MongoDB", ".NET", "SQL Server"],
+        "outcomes": [
+          "Experimentierkultur etabliert und damit spätere Modernisierung vorbereitet."
+        ]
+      },
+      "primeNearshore": {
+        "title": "Technical Lead",
+        "company": "Prime Nearshore · Fette Compacting",
+        "period": "Dez 2022 — heute",
+        "location": "Porto, Portugal · Remote",
+        "summary": "Beratende Führungsrolle, die Squads und serverless Entscheidungen für das globale Ökosystem von Fette Compacting vorantreibt.",
+        "highlights": [
+          "Serverless-Architektur mit AWS CDK und automatisierten Pipelines entworfen und weiterentwickelt.",
+          "Observability mit InfluxDB-Metriken und proaktivem Monitoring eingeführt.",
+          "Entwickler gecoacht und Engineering-Standards im verteilten Team etabliert."
+        ],
+        "techStack": ["AWS CDK", "TypeScript", "Node.js", "DynamoDB", "InfluxDB", "Serverless", "GitHub Actions"],
+        "outcomes": [
+          "Weniger Incidents und planbare Deployments durch Infrastructure as Code.",
+          "Kritische Features für vernetzte Industriemaschinen ohne Downtime ausgeliefert."
+        ],
+        "links": [
+          { "label": "Prime Nearshore", "url": "https://primenearshore.com/" }
+        ]
+      },
+      "kwan": {
+        "title": "Software Engineer Consultant",
+        "company": "KWAN · Mindera / Dunelm",
+        "period": "Aug 2022 — Dez 2022",
+        "location": "Porto, Portugal",
+        "summary": "Digital-Product Consultant bei Mindera für den britischen Händler Dunelm – Kombination aus Discovery, Engineering und Strategie.",
+        "highlights": [
+          "Integrationen und Automatisierung im globalen E-Commerce-Ökosystem umgesetzt.",
+          "Squads bei der agilen Kadenz unterstützt und Rituale sowie Jira-Metriken verfeinert.",
+          "Mit Business-Stakeholdern Roadmap-Prioritäten kundenzentriert definiert."
+        ],
+        "techStack": ["TypeScript", "React", "Node.js", "Jira", "Scrum"],
+        "outcomes": [
+          "Durchlaufzeit von Checkout-Features um 18 % verkürzt.",
+          "Management erhält klare Reports zu Fortschritt und Risiken."
+        ]
+      },
+      "docatoHead": {
+        "title": "Head of Technology",
+        "company": "Docato",
+        "period": "Nov 2021 — Mai 2022",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Leitung eines knapp 20-köpfigen Tech-Teams mit Autonomie, agilen Prozessen und technischer Governance.",
+        "highlights": [
+          "End-to-End-Scrum mit Throughput- und Lead-Time-Metriken eingeführt.",
+          "Architektur-Playbooks und gemeinsame Guardrails definiert.",
+          "Technologie und Operations für einen businessfokussierten Fahrplan ausgerichtet."
+        ],
+        "techStack": ["Scrum", "OKRs", "Node.js", "TypeScript", "Docker"],
+        "outcomes": [
+          "Höhere Release-Vorhersagbarkeit und weniger Support-Engpässe.",
+          "Team blieb nach Übergabe selbstorganisiert leistungsfähig."
+        ]
+      },
+      "docatoTechLead": {
+        "title": "Technischer Leiter",
+        "company": "Docato",
+        "period": "Nov 2020 — Nov 2021",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Legacy-Monolithen in stabile, containerisierte Services transformiert.",
+        "highlights": [
+          "Workloads nach Docker migriert und robuste CI/CD-Pipelines aufgebaut.",
+          "Monitoring eingeführt, um wiederkehrende PM2-Abstürze zu eliminieren.",
+          "Best Practices zu Node.js, Tests und Code Reviews verbreitet."
+        ],
+        "techStack": ["Node.js", "Docker", "PostgreSQL", "PM2", "CI/CD"],
+        "outcomes": [
+          "Deutlich weniger Ausfälle und planbare Deployments.",
+          "Technische Basis für zukünftige Legal-Tech-Weiterentwicklung gelegt."
+        ]
+      },
+      "comunidadeCrowd": {
+        "title": "Back-end Developer (Freelance)",
+        "company": "Comunidade Crowd",
+        "period": "Jan 2021 — Nov 2021",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Neue Plattform von Grund auf mit Authentifizierung, Integrationen und Observability aufgebaut.",
+        "highlights": [
+          "Datenbankmodell, REST/GraphQL-APIs und Zahlungsintegrationen entwickelt.",
+          "Tests automatisiert und Continuous Delivery auf Docker-Basis eingerichtet.",
+          "Architektur dokumentiert und Onboarding für neue Entwickler erstellt."
+        ],
+        "techStack": ["Node.js", "TypeScript", "PostgreSQL", "GraphQL", "Docker"],
+        "outcomes": [
+          "Relaunch der Plattform mit Skalierbarkeit und Metriken ab Tag eins."
+        ]
+      },
+      "quiverSpecialist": {
+        "title": "System-Spezialist",
+        "company": "Quiver Soluções",
+        "period": "Sep 2020 — Nov 2020",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Kritische Module bewertet und Modernisierungsplan für Produkte definiert.",
+        "highlights": [
+          "Performance und Zuverlässigkeit der Legacy-Systeme analysiert.",
+          "DevOps-Praktiken und automatisierte Tests eingeführt.",
+          "Technische Risiken gemeinsam mit Stakeholdern priorisiert."
+        ],
+        "techStack": ["Angular", "Node.js", "C#", "SQL Server", "Docker"],
+        "outcomes": [
+          "Modernisierungs-Roadmap mit sofortigen Maßnahmen verabschiedet."
+        ]
+      },
+      "quiverAnalyst": {
+        "title": "Systemanalyst",
+        "company": "Quiver Soluções",
+        "period": "Dez 2018 — Aug 2020",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Full-Stack-Einsatz in Versicherungsprodukten, funktionale und technische Analyse.",
+        "highlights": [
+          "Arbeit mit C#, Node.js, AngularJS/2+, Java und Delphi.",
+          "Mit Support- und Rollout-Teams zusammengearbeitet, um Rework zu reduzieren.",
+          "Funktionale Dokumentation und B2B-Integrationen aufgebaut."
+        ],
+        "techStack": ["C#", "Node.js", "AngularJS", "Angular", "Java", "Delphi", "SQL"],
+        "outcomes": [
+          "Kritischen Backlog reduziert und Zufriedenheit interner Stakeholder gesteigert."
+        ]
+      },
+      "colegioSantana": {
+        "title": "Technisches Gymnasium Informatik",
+        "company": "Colégio e Faculdade Santana",
+        "period": "2009 — 2011",
+        "location": "Ponta Grossa, Brasilien",
+        "summary": "Kombination aus allgemeinbildendem Unterricht und IT-Schwerpunkt mit praxisnahen Projekten.",
+        "highlights": [
+          "Aktive Teilnahme an Tanz- und Volleyballgruppen stärkte Teamarbeit.",
+          "Einführung in Programmierlogik, Netzwerke und Datenbanken.",
+          "Praktische Projekte weckten das Interesse an Webentwicklung."
+        ],
+        "techStack": ["Informatik-Grundlagen", "Netzwerke", "Programmierlogik"],
+        "outcomes": [
+          "Akademische Basis, die den Einstieg in die Tech-Karriere ermöglichte."
+        ]
+      },
+      "posGraduation": {
+        "title": "Postgraduiertenstudium Game Design",
+        "company": "Universidade Positivo",
+        "period": "2018 — 2019",
+        "location": "Brasilien (Fernstudium)",
+        "summary": "Spezialisierung auf Prototyping und interaktive Erlebnisse.",
+        "highlights": [
+          "Mechaniken, UX und Storytelling für Spiele erforscht.",
+          "Iterative Prototypen mit gängigen Engines umgesetzt."
+        ],
+        "techStack": ["Game Design", "Unity", "UX Research"],
+        "outcomes": [
+          "Kreatives Werkzeugset erweitert, das heute in digitalen Produkten genutzt wird."
+        ]
+      },
+      "unopar": {
+        "title": "Technologie für Internetsysteme",
+        "company": "UNOPAR",
+        "period": "2012 — 2015",
+        "location": "Brasilien",
+        "summary": "Studium mit Fokus auf Web- und Mobile-Entwicklung.",
+        "highlights": [
+          "Praxisprojekte mit Innovationsschwerpunkt.",
+          "Arbeit mit Web Services, Datenbanken und mobilen Lösungen."
+        ],
+        "techStack": ["HTML", "CSS", "JavaScript", "Web Services", "PostgreSQL"],
+        "outcomes": [
+          "Solide Full-Stack-Grundlagen."
+        ]
+      },
+      "certNest": {
+        "title": "NestJS Fundamentals",
+        "company": "NestJS",
+        "period": "Sep 2024",
+        "location": "Zertifizierung",
+        "summary": "Offizielles Zertifikat zu modularer Architektur und Best Practices mit NestJS.",
+        "highlights": [
+          "Dependency Injection, Pipelines und Teststrategien.",
+          "Wiederverwendbare Modulstrukturen für skalierbare Services."
+        ],
+        "techStack": ["NestJS", "TypeScript"],
+        "outcomes": [
+          "Formale Bestätigung moderner Backend-Kompetenz."
+        ]
+      },
+      "certHackerRank": {
+        "title": "JavaScript Basic",
+        "company": "HackerRank",
+        "period": "Dez 2023",
+        "location": "Zertifizierung",
+        "summary": "Offizielle JavaScript-Kompetenzprüfung.",
+        "highlights": [
+          "Grundlegende Algorithmen sowie Array- und String-Manipulation.",
+          "Zeitbegrenzt Aufgaben mit Fokus auf Codequalität."
+        ],
+        "techStack": ["JavaScript"],
+        "outcomes": [
+          "Externe Bestätigung der JavaScript-Basisfähigkeiten."
+        ]
+      },
+      "certHackerRankIntermediate": {
+        "title": "JavaScript Intermediate",
+        "company": "HackerRank",
+        "period": "Dez 2023",
+        "location": "Zertifizierung",
+        "summary": "Prüfung auf mittlerem Niveau zu Datenmanipulation, Rekursion und Algorithmik in JavaScript.",
+        "highlights": [
+          "Herausforderungen mit Maps, Sets und Performance-Optimierungen gelöst.",
+          "Funktionale Patterns und Clean-Code-Praktiken angewendet."
+        ],
+        "techStack": ["JavaScript", "Algorithmen", "Datenstrukturen"],
+        "outcomes": [
+          "Bestätigt die Fähigkeiten, Code-Reviews anzuleiten und Entwickler zu coachen."
+        ]
+      },
+      "certHackerRankNode": {
+        "title": "Node JS Basic",
+        "company": "HackerRank",
+        "period": "Dez 2023",
+        "location": "Zertifizierung",
+        "summary": "Grundlagenzertifikat für Node.js mit Fokus auf Module, IO und API-Entwicklung.",
+        "highlights": [
+          "Skripte für asynchrone Abläufe und Fehlerbehandlung implementiert.",
+          "Routen und Dateiverarbeitung unter Zeitdruck entwickelt."
+        ],
+        "techStack": ["Node.js", "JavaScript", "APIs"],
+        "outcomes": [
+          "Festigt die Node.js-Basis, die in serverless Lösungen täglich genutzt wird."
+        ]
+      },
+      "certFullCycleArchitecture": {
+        "title": "Software Architecture Fundamentals",
+        "company": "Full Cycle",
+        "period": "Nov 2023",
+        "location": "Zertifizierung",
+        "summary": "Intensivkurs zu Architekturprinzipien, Trade-offs und resilienten Systemdesigns.",
+        "highlights": [
+          "C4-Diagramme erstellt und nichtfunktionale Anforderungen bewertet.",
+          "Layered-, Hexagonal- und Event-Driven-Architekturen anhand realer Szenarien untersucht."
+        ],
+        "techStack": ["Softwarearchitektur", "Systemdesign"],
+        "outcomes": [
+          "Stärkt Architekturentscheidungen in aktuellen serverless Plattformen."
+        ]
+      },
+      "certFullCycleDDD": {
+        "title": "Domain Driven Design",
+        "company": "Full Cycle",
+        "period": "Okt 2023",
+        "location": "Zertifizierung",
+        "summary": "Vertiefung in strategisches und taktisches DDD für Microservices.",
+        "highlights": [
+          "Bounded Contexts, Aggregates und Domain Events modelliert.",
+          "Ubiquitous Language zwischen Business und Tech geschärft."
+        ],
+        "techStack": ["DDD", "Architektur", "Domänenmodellierung"],
+        "outcomes": [
+          "Verbesserte Abstimmung zwischen Produkt- und Engineering-Teams."
+        ]
+      },
+      "certFullCycleSolid": {
+        "title": "SOLID Express",
+        "company": "Full Cycle",
+        "period": "Okt 2023",
+        "location": "Zertifizierung",
+        "summary": "Praxisorientierte Auffrischung der SOLID-Prinzipien und Objektorientierung.",
+        "highlights": [
+          "Services refaktoriert unter Einsatz von SRP und Dependency Inversion.",
+          "Automatisierte Tests erstellt, um Regressionen zu vermeiden."
+        ],
+        "techStack": ["SOLID", "Design Patterns", "Refactoring"],
+        "outcomes": [
+          "Schärft Code-Reviews und Mentoring in interdisziplinären Teams."
+        ]
+      },
+      "certUdemyUnitTesting": {
+        "title": "Unit Testing for TypeScript & Node.js with Jest",
+        "company": "Udemy",
+        "period": "Sep 2022",
+        "location": "Zertifizierung",
+        "summary": "Kurs zu Jest, Mocks, Spies und TDD-Best-Practices.",
+        "highlights": [
+          "Testsuiten für Node.js-Services aufgebaut und externe Integrationen abgedeckt.",
+          "CI-Pipelines konfiguriert, um Tests kontinuierlich laufen zu lassen."
+        ],
+        "techStack": ["TypeScript", "Node.js", "Jest", "TDD"],
+        "outcomes": [
+          "Erhöhte Testabdeckung und Vertrauen in Continuous Delivery."
+        ]
+      },
+      "certCebracHardware": {
+        "title": "Schnellkurs Hardware & Netzwerke",
+        "company": "Cebrac Ponta Grossa",
+        "period": "Jan 2010",
+        "location": "Zertifizierung",
+        "summary": "Praxisnahes Training zu PC-Montage, Wartung und Netzwerkgrundlagen.",
+        "highlights": [
+          "Hardwarefehler diagnostiziert und lokale Netzwerke konfiguriert.",
+          "Grundlagen zu Verkabelung, IP-Adressierung und Basisdiensten."
+        ],
+        "techStack": ["Hardware", "Netzwerke", "Support"],
+        "outcomes": [
+          "Frühe technische Basis als Ergänzung zur akademischen Ausbildung."
+        ]
+      },
+      "certExercitoOficial": {
+        "title": "Reserveoffiziersausbildung",
+        "company": "Brasilianische Armee",
+        "period": "2010",
+        "location": "Zertifizierung",
+        "summary": "Militärisches Programm mit Fokus auf Führung, Disziplin und Entscheidungen unter Druck.",
+        "highlights": [
+          "Koordination von Truppeneinsätzen und strategische Planung.",
+          "Resilienz, Kommunikation und schnelle Reaktionsfähigkeit trainiert."
+        ],
+        "techStack": ["Leadership", "Teamführung", "Strategische Planung"],
+        "outcomes": [
+          "Prägte die heutigen Führungsqualitäten im Engineering-Kontext."
+        ]
+      }
+    }
+  },
+  "portfolio": {
+    "heading": "Portfolio-Spotlight",
+    "description": "Live-Produkte, die laufend weiterentwickelt werden.",
+    "items": {
+      "vestouro": {
+        "title": "Vestouro – Monat für Monat",
+        "summary": "Chrome-Erweiterung für Finanzplanung mit „Enjoy Envelope“-Methode, Ausgaben- und Schuldenkontrolle sowie Investments.",
+        "linkLabel": "Im Chrome Web Store öffnen",
+        "linkUrl": "https://chromewebstore.google.com/detail/budget-buddy-%E2%80%93-m%C3%AAs-a-m%C3%AAs/hlfhioolnhbbaalbjoahokmcleognalf"
+      }
+    }
+  },
+  "footer": {
+    "note": "Offen für Gespräche über technische Führung, Serverless-Architektur und digitale Produkte.",
+    "rights": "© {{year}} Marcos Cosmoski. Entwickelt mit React, Redux Toolkit und Tailwind."
+  }
+}
+

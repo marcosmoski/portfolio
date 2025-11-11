@@ -76,12 +76,13 @@ const Timeline = ({ track, headingKey, subheadingKey, sectionId }: TimelineProps
         return;
       }
       const progressPixels = nodeRect.left + nodeRect.width / 2 - trackRect.left;
-      const ratio = progressPixels / trackRect.width;
+      const adjustedWidth = trackRect.width - nodeRect.width / 2;
+      const ratio = progressPixels / adjustedWidth;
       setProgressPercent(Math.max(0, Math.min(1, ratio)) * 100);
     };
 
     updateProgress();
-    window.addEventListener('resize', updateProgress);
+    window.addEventListener('resize', updateProgress, { passive: true });
     return () => window.removeEventListener('resize', updateProgress);
   }, [activeIndex, stages.length]);
 
